@@ -4,7 +4,7 @@ Created on Sun Jun 15 07:17:45 2025
 
 @author: fjose
 """
-
+#%%
 
 import matplotlib.pyplot as plt
 import seaborn as sns; sns.set()
@@ -56,3 +56,4 @@ X_new =pca_opt.transform(X)
 
 #ahora tengo un arreglo dimensional de 12 variables, no 64,
 # que explica el 80% de la variabilidad original. 
+# %%
